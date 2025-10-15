@@ -1,0 +1,11 @@
+{
+  "name": "stripe-shopmy-webhook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node api/stripe-webhook.js" },
+  "dependencies": {
+    "stripe": "^16.0.0",
+    "raw-body": "^2.5.2"
+  }
+}

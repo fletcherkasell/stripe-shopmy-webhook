@@ -1,3 +1,7 @@
 {
-  "functions": { "api/stripe-webhook.js": { "runtime": "nodejs18.x" } }
+  "functions": {
+    "api/stripe-webhook.js": {
+      "runtime": "vercel-nodejs@18.0.0"
+    }
+  }
 }
